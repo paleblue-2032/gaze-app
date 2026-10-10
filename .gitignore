@@ -1,0 +1,20 @@
+# エージェント / エディタのローカル作業ディレクトリ（含めたくない）
+.commandcode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Nix / direnv
+.direnv/
+result
+result-*
+
+# エディタ / OS
+.DS_Store
+Thumbs.db
+*.swp
+*~

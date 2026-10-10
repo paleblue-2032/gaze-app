@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=gaze-cursor
+Comment=目線と頭の向きで動く仮想カーソル（実カーソルは操作しません）
+Exec=bash -lc 'cd %k/.. ; nix run . --windowed'
+Icon=input-mouse
+Terminal=false
+Categories=Utility;Science;
